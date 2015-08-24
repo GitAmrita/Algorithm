@@ -1,0 +1,8 @@
+dog,dutch1
+egg,elf1
+fox,fix1
+gun,girl1
+hat,hut1
+cat,carrot1
+bear,beet1
+ant,apple1

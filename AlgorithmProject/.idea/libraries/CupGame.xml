@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CupGame">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/Algorithm/CupGame.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

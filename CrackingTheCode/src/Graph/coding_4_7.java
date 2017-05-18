@@ -1,4 +1,4 @@
-package Tree;
+package Graph;
 
 import java.util.*;
 

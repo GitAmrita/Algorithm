@@ -1,4 +1,4 @@
-package Tree;
+package Graph;
 
 /**
  * Created by amritachowdhury on 5/15/17.

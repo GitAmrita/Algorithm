@@ -4,7 +4,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Failure is the tution you pay for success.");
-        Graph.coding_4_10 r = new Graph.coding_4_10();
+        Graph.coding_4_12 r = new Graph.coding_4_12();
         r.run();
     }
 }

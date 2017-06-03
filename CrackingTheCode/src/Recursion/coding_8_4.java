@@ -11,11 +11,11 @@ public class coding_8_4 {
     List<String> sets = new ArrayList<>();
    // private List<String> subsets = new ArrayList<>();
 
-    public void getSubsets() {
+    public void run() {
         sets.add("a1");
         sets.add("a2");
         sets.add("a3");
-        sets.add("a4");
+
         List<String> subsets = printSubSet(sets, new ArrayList<String>());
         subsets.add(" ");
 
@@ -26,7 +26,7 @@ public class coding_8_4 {
 
     }
 
-    private List<String>  printSubSet(List<String> sets, List<String> subsets) {
+    private List<String> printSubSet(List<String> sets, List<String> subsets) {
          if (sets.size() == 1) {
             subsets.add(sets.get(0));
         } else if(sets.size() == 2) {

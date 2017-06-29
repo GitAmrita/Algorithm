@@ -28,7 +28,7 @@ public class Main {
        /*StacksAndQueues.coding_3_6 r = new StacksAndQueues.coding_3_6();
        r.run();*/
 
-       SortingAndSearching.coding_10_10 r = new SortingAndSearching.coding_10_10();
+       SortingAndSearching.coding_10_11 r = new SortingAndSearching.coding_10_11();
        r.run();
 
     }

@@ -25,7 +25,10 @@ public class Main {
        /*SystemDesignAndScalability.coding_9_2 r = new SystemDesignAndScalability.coding_9_2();
        r.run();*/
 
-       StacksAndQueues.coding_3_6 r = new StacksAndQueues.coding_3_6();
+       /*StacksAndQueues.coding_3_6 r = new StacksAndQueues.coding_3_6();
+       r.run();*/
+
+       SortingAndSearching.coding_10_10 r = new SortingAndSearching.coding_10_10();
        r.run();
 
     }

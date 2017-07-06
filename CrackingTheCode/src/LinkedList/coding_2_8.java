@@ -8,7 +8,6 @@ public class coding_2_8 {
 
     public void run() {
         createLinkedList();
-       // print();
         System.out.println();
         Node loopStart = getLoopStart();
         if (loopStart == null) {

@@ -1,5 +1,6 @@
+import ModerateProblems.*;
 
-
+import StringDataStructure.TestTrie;
 
 /**
  * Created by amritachowdhury on 5/17/17.
@@ -28,7 +29,13 @@ public class Main {
        /*StacksAndQueues.coding_3_6 r = new StacksAndQueues.coding_3_6();
        r.run();*/
 
-       SortingAndSearching.coding_10_11 r = new SortingAndSearching.coding_10_11();
+       /* SortingAndSearching.coding_10_11 r = new SortingAndSearching.coding_10_11();
+          r.run();*/
+
+       /*TestTrie r = new TestTrie();
+          r.run();*/
+
+       ModerateProblems.coding_16_25 r = new ModerateProblems.coding_16_25();
        r.run();
 
     }

@@ -35,8 +35,17 @@ public class Main {
        /*TestTrie r = new TestTrie();
           r.run();*/
 
-       ModerateProblems.coding_16_25 r = new ModerateProblems.coding_16_25();
+       /*ModerateProblems.coding_16_24 r = new ModerateProblems.coding_16_24();
+       r.run();*/
+       /*boxedInterview  r = new boxedInterview();
+       String s = "00:01:07,400-234-090\n00:05:01,701-080-080\n00:05:00,400-234-090";
+       r.solution(s);*/
+
+       KiwiCrateInterview r = new KiwiCrateInterview();
        r.run();
+
+       /*ModerateProblems.test r = new ModerateProblems.test();
+       r.run();*/
 
     }
 

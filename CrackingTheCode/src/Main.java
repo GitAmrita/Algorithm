@@ -41,11 +41,11 @@ public class Main {
        String s = "00:01:07,400-234-090\n00:05:01,701-080-080\n00:05:00,400-234-090";
        r.solution(s);*/
 
-       KiwiCrateInterview r = new KiwiCrateInterview();
-       r.run();
-
-       /*ModerateProblems.test r = new ModerateProblems.test();
+       /*KiwiCrateInterview r = new KiwiCrateInterview();
        r.run();*/
+
+       ModerateProblems.coding_16_17 r = new ModerateProblems.coding_16_17();
+       r.run();
 
     }
 

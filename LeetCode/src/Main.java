@@ -4,10 +4,10 @@
 public class Main {
 
         public static void main(String[] args) {
-            /*Moderate.p4 p = new Moderate.p4();
-            p.run();*/
+            Moderate.p6 p = new Moderate.p6();
+            p.run();
 
-            Hard.h1 h = new Hard.h1();
-            h.run();
+            /*Hard.h1 h = new Hard.h1();
+            h.run();*/
         }
 }

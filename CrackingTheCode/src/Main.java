@@ -1,4 +1,5 @@
 import Quora.Upvotes;
+import ThreadsAndLocks.RunnableExample;
 
 /**
  * Created by amritachowdhury on 5/17/17.
@@ -9,8 +10,9 @@ public class Main {
       // r.run();
        //DrawBridgePhoneInterview r = new DrawBridgePhoneInterview();
        //r.run();
-
-       AlicePhone r = new AlicePhone();
+       //RunnableExample r = new RunnableExample();
+       //r.run();
+       ModerateProblems.coding_16_17 r = new ModerateProblems.coding_16_17();
        r.run();
     }
 }

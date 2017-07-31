@@ -31,8 +31,8 @@ public class DrawBridgePhoneInterview {
     }
 
     public void run() {
-        int[] a = new int[] {-10, 5, 2, -2, -20, 10};
-        int target = 0;
+        int[] a = new int[] {-10, 5, 2, -2, 6, 1, -20, 10};
+        int target = 7;
         getSubArray(a, target);
     }
 }

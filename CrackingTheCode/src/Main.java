@@ -8,11 +8,11 @@ public class Main {
    public static void main(String[] args) {
       // Quora.Upvotes r = new Quora.Upvotes();
       // r.run();
-       //DrawBridgePhoneInterview r = new DrawBridgePhoneInterview();
-       //r.run();
+       DrawBridgePhoneInterview r = new DrawBridgePhoneInterview();
+       r.run();
        //RunnableExample r = new RunnableExample();
        //r.run();
-       ModerateProblems.coding_16_17 r = new ModerateProblems.coding_16_17();
-       r.run();
+       /*ModerateProblems.coding_16_17 r = new ModerateProblems.coding_16_17();
+       r.run();*/
     }
 }

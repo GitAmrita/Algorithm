@@ -4,7 +4,7 @@
 public class Main {
 
         public static void main(String[] args) {
-            Moderate.p6 p = new Moderate.p6();
+            Moderate.p5 p = new Moderate.p5();
             p.run();
 
             /*Hard.h1 h = new Hard.h1();

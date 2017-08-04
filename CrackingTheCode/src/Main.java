@@ -7,7 +7,7 @@ import Alation.*;
  */
 public class Main {
    public static void main(String[] args) {
-       Alation.uniqueSubString r = new Alation.uniqueSubString();
+       GE.Solution1 r = new GE.Solution1();
        r.run();
 
        /*ModerateProblems.coding_16_10_new r = new ModerateProblems.coding_16_10_new();

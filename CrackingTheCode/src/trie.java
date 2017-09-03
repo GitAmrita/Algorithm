@@ -17,7 +17,6 @@ public class trie {
         }
 
         public void add(String s) {
-
             if (s.isEmpty()) {
                 this.isWord = true;
                 return;
@@ -26,8 +25,6 @@ public class trie {
                 map.put(s.charAt(0), new TrieNode());
             }
             TrieNode child = this.map.get(s.charAt(0));
-            // System.out.println(s + ": " +  s.charAt(0) + ": " + this.map.size());
-
             child.add(s.substring(1));
         }
 
@@ -78,6 +75,7 @@ public class trie {
             }
             return this.map.get(s.charAt(0)).isPrefix(s.substring(1));
         }
+
         public void explore(String s, TrieNode child) {
             for (Map.Entry<Character,TrieNode> entry : child.map.entrySet()) {
                 if (entry.getValue().isWord) {
@@ -87,6 +85,7 @@ public class trie {
             }
             System.out.println("");
         }
+
         public void listAll(String orig, String s) {
             if (s.length() == 1) {
                 for (Map.Entry<Character,TrieNode> entry : map.entrySet()) {
